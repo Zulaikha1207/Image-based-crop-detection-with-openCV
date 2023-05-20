@@ -1,5 +1,10 @@
 name: Continuous Integration
 
+defaults:
+  run:
+    shell: bash
+    working-directory: project1
+
 on:
   push:
     branches:
