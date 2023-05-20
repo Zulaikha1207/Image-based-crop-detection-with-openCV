@@ -1,6 +1,6 @@
 import argparse
 import cv2
-from project1 import CropDetector
+from crop_counting import CropDetector
 
 
 def main():
