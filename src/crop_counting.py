@@ -35,7 +35,7 @@ class CropDetector:
                 cv2.circle(self.image, center, radius, (0, 255, 0), 2)
         
         result = cv2.putText(self.image, f"Crops Detected: {len(crops)}", (20, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-        cv2.imwrite("output.png", result)
+        cv2.imwrite("results/output.png", result)
         cv2.imshow('Detected Crops', result)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
