@@ -2,8 +2,7 @@ name: Continuous Integration
 
 defaults:
   run:
-    shell: bash
-    working-directory: computer_vision_with_opencv
+    working-directory: .
 
 on:
   push:
